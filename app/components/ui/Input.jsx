@@ -21,5 +21,5 @@ export default function Input({
                    focus:border-transparent transition"
       />
     </div>
-  )
+  );
 }

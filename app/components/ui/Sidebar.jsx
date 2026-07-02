@@ -11,22 +11,36 @@ export default function Sidebar() {
           Dashboard
         </a>
 
-        <p className="text-xs text-gray-400 uppercase px-2 mt-4 mb-2">Interface</p>
-        <a href="#" className="block px-3 py-2 rounded hover:bg-white/10 text-gray-300">
+        <p className="text-xs text-gray-400 uppercase px-2 mt-4 mb-2">
+          Interface
+        </p>
+        <a
+          href="#"
+          className="block px-3 py-2 rounded hover:bg-white/10 text-gray-300"
+        >
           Layouts
         </a>
-        <a href="#" className="block px-3 py-2 rounded hover:bg-white/10 text-gray-300">
+        <a
+          href="#"
+          className="block px-3 py-2 rounded hover:bg-white/10 text-gray-300"
+        >
           Pages
         </a>
 
         <p className="text-xs text-gray-400 uppercase px-2 mt-4 mb-2">Addons</p>
-        <a href="#" className="block px-3 py-2 rounded hover:bg-white/10 text-gray-300">
+        <a
+          href="#"
+          className="block px-3 py-2 rounded hover:bg-white/10 text-gray-300"
+        >
           Charts
         </a>
-        <a href="#" className="block px-3 py-2 rounded hover:bg-white/10 text-gray-300">
+        <a
+          href="#"
+          className="block px-3 py-2 rounded hover:bg-white/10 text-gray-300"
+        >
           Tables
         </a>
       </nav>
     </aside>
-  )
+  );
 }

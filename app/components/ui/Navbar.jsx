@@ -15,9 +15,9 @@ export default function Navbar() {
           Search
         </button>
         <Link href="/dashboard/profile">
-        <button className="px-3 py-1 bg-blue-800 rounded-xl hover:bg-white hover:text-black">
-          Profile
-        </button>
+          <button className="px-3 py-1 bg-blue-800 rounded-xl hover:bg-white hover:text-black">
+            Profile
+          </button>
         </Link>
       </div>
     </header>
