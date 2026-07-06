@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <header className="h-16 flex items-center justify-between px-6 bg-blue-950 text-white">
-      <button>Menu</button>
+      <button>&#9776;</button>
 
       <div className="flex gap-3 ">
         <input
