@@ -25,7 +25,7 @@ export default function HomePage() {
       </nav>
 
       {/* Hero */}
-      <div className="flex flex-col items-center justify-center py-32 text-center px-4">
+      <div className="flex flex-col items-center py-30 px-4">
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
           Welcome to the Dashboard App
         </h1>
