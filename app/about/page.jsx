@@ -35,7 +35,7 @@ export default function AboutPage() {
 
               <h2 className="text-xl font-semibold mb-2">Features</h2>
 
-              <ul className="list-disc pl-6 text-gray-700 space-y-2">
+              <ul className="pl-6 text-gray-700 space-y-2">
                 <li>Responsive Sidebar</li>
                 <li>Reusable Navbar</li>
                 <li>Reusable UI Components</li>
