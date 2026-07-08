@@ -52,7 +52,7 @@ export default function DashboardPage() {
 
       {/* Badges + Buttons — Day 2 components */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <Card header="Status Badges">
+        <Card>
           <div className="flex flex-wrap gap-2">
             <Badge label="Active" className="bg-green-600" dot />
             <Badge label="Pending" className="bg-yellow-500" dot />
@@ -61,7 +61,7 @@ export default function DashboardPage() {
           </div>
         </Card>
 
-        <Card header="Actions">
+        <Card>
           <div className="flex flex-wrap gap-3">
             <Button
               className="bg-blue-600 hover:bg-blue-700"
